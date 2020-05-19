@@ -212,7 +212,7 @@ body {
       .header__logo {
         position: absolute;
         z-index: 3;
-        top: 40%;
+        top: 35%;
         left: 40px;
         -webkit-transform: scale(1.5);
                 transform: scale(1.5);
@@ -228,16 +228,16 @@ body {
     @media screen and (max-width: 900px) {
       .header__toggler {
         display: block; } }
-    .header__toggler:checked ~ .header__burger-menu > .header__burger-bar {
+    .header__toggler:checked ~ .header__burger-menu > .header__burger-bar:last-child {
       opacity: 1;
-      -webkit-transform: rotate(-45deg) translate(-2px, -1px);
-              transform: rotate(-45deg) translate(-2px, -1px);
+      -webkit-transform: rotate(-45deg) translate(4px, -7px);
+              transform: rotate(-45deg) translate(4px, -7px);
       background: #fff; }
-    .header__toggler:checked ~ .header__burger-menu > .header__burger-bar:nth-last-child(3) {
+    .header__toggler:checked ~ .header__burger-menu > .header__burger-bar:nth-child(2) {
       opacity: 0;
       -webkit-transform: rotate(0deg) scale(0.2, 0.2);
               transform: rotate(0deg) scale(0.2, 0.2); }
-    .header__toggler:checked ~ .header__burger-menu > .header__burger-bar:nth-last-child(2) {
+    .header__toggler:checked ~ .header__burger-menu > .header__burger-bar:first-child {
       -webkit-transform: rotate(45deg) translate(-1px, -3px);
               transform: rotate(45deg) translate(-1px, -3px); }
     .header__toggler:checked ~ .header__menu {
