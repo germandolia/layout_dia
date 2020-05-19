@@ -260,16 +260,16 @@ body {
       background: #fff;
       border-radius: 3px;
       z-index: 3;
-      -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-      transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
-    .header__burger-menu span:first-child {
-      -webkit-transform-origin: 0% 100%;
-              transform-origin: 0% 100%; }
-    .header__burger-menu span:nth-last-child(2) {
-      -webkit-transform-origin: 0% 100%;
-              transform-origin: 0% 100%; }
+      -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.5s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+      transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.5s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.5s ease;
+      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.5s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
+      .header__burger-menu span:first-child {
+        -webkit-transform-origin: 0% 100%;
+                transform-origin: 0% 100%; }
+      .header__burger-menu span:nth-last-child(2) {
+        -webkit-transform-origin: 0% 100%;
+                transform-origin: 0% 100%; }
 
 .nav {
   display: -webkit-box;
